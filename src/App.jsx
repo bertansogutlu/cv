@@ -1,14 +1,16 @@
-import { useState } from 'react'
 import './App.css'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-     <div >
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+     <div className='w-4/5 m-auto'>
+      <Header/>
+      <Main/>
+      <Footer/>
      </div>
     </>
   )
