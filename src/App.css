@@ -9,3 +9,21 @@
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
+
+.mark {
+    background-color: #EEEBFF;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 1.5rem;
+    display: table;
+    vertical-align: middle;
+}
+.mark p {
+    display: table-cell;
+    vertical-align: middle;
+    color: #7B61FF;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transform: rotate(30deg);
+}

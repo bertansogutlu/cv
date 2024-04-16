@@ -15,7 +15,7 @@ function Header() {
       </button>
     </div>
     <div className="flex justify-between">
-      <div>@</div>
+      <div className='mark'><p>B</p></div>
       <div className="flex gap-6">
         {['Skills','Projects','Hire Me'].map(item => {
           return (
