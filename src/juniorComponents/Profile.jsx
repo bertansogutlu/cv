@@ -15,7 +15,7 @@ const profile = {
 
 const about = {
   topic: "About Me",
-  text: "My engineering education fostered my analytical thinking skills and my ability to work with numbers, which I thought were indispensable for the sales position. My technical work experience, which you can see in the details of my resume, has provided me with the habit of working in harmony within teams from different cultures, taking responsibility of project management, capturing challenging deadlines under stress and doing result-oriented work both in Turkey and abroad.",
+  text: "My technical work experience, which you can see in the details of my resume, has provided me with the habit of working in harmony within teams from different cultures, taking responsibility of project management, capturing challenging deadlines under stress and doing result-oriented work both in Turkey and abroad.",
 };
 
 function Profile() {
