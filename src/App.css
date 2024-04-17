@@ -1,9 +1,9 @@
-.button {
+.header-button {
     padding: 0.5rem 1rem;
     border: 2px solid white;
 }
 
-.button:hover {
+.header-button:hover {
     color: #3730A3;
     border: 2px solid #3730A3;
     border-radius: 0.5rem;
@@ -87,3 +87,28 @@
     width: 50px;
     height: 25px;
   }
+
+
+.main-button {
+    padding: 0.5rem 1rem;
+    border: 2px solid white;
+}
+
+.main-button:hover {
+    color: #3730A3;
+    border: 2px solid #3730A3;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.main-button {
+  color: #3730A3;
+  border: 2px solid #3730A3;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.main-button:hover {
+ background-color: #3730A3;
+ color: white;
+}

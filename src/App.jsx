@@ -10,7 +10,7 @@ function App() {
      <div className='w-4/5 m-auto'>
       <Header/>
       <Main/>
-      <Footer/>
+  
      </div>
     </>
   )
