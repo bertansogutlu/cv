@@ -1,11 +1,11 @@
 .header-button {
     padding: 0.5rem 1rem;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .header-button:hover {
     color: #3730A3;
-    border: 2px solid #3730A3;
+    border: 1px solid #3730A3;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
 }
@@ -88,27 +88,21 @@
     height: 25px;
   }
 
-
-.main-button {
-    padding: 0.5rem 1rem;
-    border: 2px solid white;
-}
-
-.main-button:hover {
-    color: #3730A3;
-    border: 2px solid #3730A3;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
-}
-
-.main-button {
+.hero-button {
   color: #3730A3;
-  border: 2px solid #3730A3;
+  border: 1px solid #3730A3;
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
 }
 
-.main-button:hover {
+.hero-button:hover {
  background-color: #3730A3;
  color: white;
+}
+
+.projects-button {
+  color: #3730A3;
+  border: 1px solid #3730A3;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
 }

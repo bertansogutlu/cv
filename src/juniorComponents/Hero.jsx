@@ -21,7 +21,7 @@ function Hero() {
       <div className="flex gap-2">
         {[{text:'Hire Me',logo:""},{text:'Github',logo:'@'},{text:'Linkedin',logo:'@'}].map(item => {
           return (
-            <button className="main-button">
+            <button className="hero-button">
               {`${item.logo} ${item.text}`}
             </button>
           )

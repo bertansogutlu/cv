@@ -20,7 +20,7 @@ function Header() {
         </div>
         <div className="flex gap-6">
           {["Skills", "Projects", "Hire Me"].map((item) => {
-            return <div className="header-button">{item}</div>;
+            return <button className="header-button">{item}</button>;
           })}
         </div>
       </div>

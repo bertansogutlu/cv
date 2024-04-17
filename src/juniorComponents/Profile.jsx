@@ -39,6 +39,7 @@ function Profile() {
           <p>{about.text}</p>
         </div>
       </div>
+      <hr className="border-[#4338CA] my-10" />
     </article>
   );
 }
