@@ -6,9 +6,9 @@ function Header() {
   return (
     <header>
       <div className="py-4 flex justify-end items-center">
-        <div class="checkbox-apple">
-          <input class="yep" id="check-apple" type="checkbox" />
-          <label for="check-apple"></label>
+        <div className="checkbox-apple">
+          <input className="yep" id="check-apple" type="checkbox" />
+          <label htmlFor="check-apple"></label>
         </div>
         <span>{header.mode}&nbsp;</span>
         <button>
@@ -21,8 +21,8 @@ function Header() {
           <p>{header.firstLatter}</p>
         </div>
         <div className="flex gap-6">
-          {header.topics.map((item) => {
-            return <button className="header-button">{item}</button>;
+          {header.topics.map((item, key) => {
+            return <button className="header-button" key={key}>{item}</button>;
           })}
         </div>
       </div>

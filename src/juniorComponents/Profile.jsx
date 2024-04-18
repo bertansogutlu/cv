@@ -28,8 +28,8 @@ function Profile() {
         <div className="w-3/8">
           <h4 className="text-xl text-[#4338CA] py-3">{profile.profile.topic}</h4>
           <div>
-            {profile.profile.info.map((item) => {
-              return <div className="flex">
+            {profile.profile.info.map((item, key) => {
+              return <div className="flex" key={key}>
                 <span className="w-1/3 font-semibold text-sm">{item.title}</span>
                 <p className="w-2/3 text-sm">{item.value}</p>
               </div>;

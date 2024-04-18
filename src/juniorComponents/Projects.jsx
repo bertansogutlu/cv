@@ -36,16 +36,16 @@ function Projects() {
     <article>
       <h3 className="text-3xl font-semibold">{projects.articleName}</h3>
       <div className="flex justify-between">
-        {projects.projects.map((item) => {
+        {projects.projects.map((item, key) => {
           return (
-            <div className="w-1/4">
+            <div className="w-1/4" key={key}>
               <img className="pt-5" src={item.img} alt={item.topic} />
               <h4 className="text-xl text-[#4338CA] py-3">{item.topic}</h4>
               <p className="text-xs pb-5">{item.text}</p>
               <div className="flex gap-2">
-                {item.libraries.map((item) => {
+                {item.libraries.map((item, key) => {
                   return (
-                    <div className="text-xs projects-button">{item}</div>
+                    <div className="text-xs projects-button" key={key}>{item}</div>
                   );
                 })}
               </div>

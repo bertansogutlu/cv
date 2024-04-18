@@ -28,9 +28,9 @@ function Hero() {
         </h1>
         <p className="py-5">{hero.bio}</p>
         <div className="flex gap-2">
-          {hero.topics.map((item) => {
+          {hero.topics.map((item, key) => {
             return (
-              <button className="hero-button">
+              <button className="hero-button" key={key}>
                 {`${item.logo} ${item.text}`}
               </button>
             );
