@@ -10,7 +10,7 @@ function Header() {
           <input class="yep" id="check-apple" type="checkbox" />
           <label for="check-apple"></label>
         </div>
-        <span>D{header.mode}&nbsp;</span>
+        <span>{header.mode}&nbsp;</span>
         <button>
           <span className="text-[#3730A3]">{header.language}</span>
           {header.languageSpan}

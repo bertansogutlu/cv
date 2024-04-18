@@ -31,33 +31,6 @@ const projects = {
   ]
 }
 
-const arr1 = [
-  {
-    topic: "Java Script",
-    text: "JavaScript, the cornerstone of web interactivity, empowers developers to breathe life into static web pages through dynamic functionality and seamless user experiences.",
-    img: "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
-    libraries: ["React", "Redux", "Axios"],
-    github: "",
-    url: "",
-  },
-  {
-    topic: "React.Js",
-    text: "React.js, prized for its component-based architecture, streamlines the development process by allowing developers to build scalable and interactive user interfaces with simplicity and efficiency.",
-    img: "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
-    libraries: ["React", "Redux", "Axios"],
-    github: "",
-    url: "",
-  },
-  {
-    topic: "Node.Js",
-    text: "Node.js, utilizing JavaScript, allows developers to build server-side applications with ease, fostering efficient and scalable solutions for modern web development needs.",
-    img: "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
-    libraries: ["React", "Redux", "Axios"],
-    github: "",
-    url: "",
-  },
-];
-
 function Projects() {
   return (
     <article>
