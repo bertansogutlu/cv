@@ -22,6 +22,7 @@ export function DataProvider({children}) {
 
   const handleModeChange = () => {
     setMode(!mode)
+    document.documentElement.classList.toggle('dark')
   }
 
   return (

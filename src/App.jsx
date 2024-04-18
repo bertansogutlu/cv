@@ -6,7 +6,7 @@ import {DataProvider} from "./DataProvider"
 
 function App() {
   return (
-    <>
+    <div className="dark:bg-[#252128]">
       <DataProvider>
         <div className="w-4/5 m-auto">
           <Header />
@@ -14,7 +14,7 @@ function App() {
           <Footer />
         </div>
       </DataProvider>
-    </>
+    </div>
   );
 }
 

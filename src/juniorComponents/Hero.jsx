@@ -8,15 +8,15 @@ function Hero() {
     <article className="py-10 flex justify-between">
       <div className="w-3/5">
         <div className="flex gap-2 items-center">
-          <hr className="border-[#4338CA] w-1/12" />
-          <h2 className="text-[#4338CA]">{hero.name}</h2>
+          <hr className="border-[#4338CA] dark:text-[#B7AAFF] w-1/12" />
+          <h2 className="text-[#4338CA] dark:text-[#B7AAFF]">{hero.name}</h2>
         </div>
         <h1 className="text-6xl py-5">
-          <span>{hero.firstRow}</span>
+          <span className="dark:text-[#AEBCCF]">{hero.firstRow}</span>
           <br />
-          <span>{hero.secondRow}</span>
+          <span className="dark:text-[#AEBCCF]">{hero.secondRow}</span>
         </h1>
-        <p className="py-5">{hero.bio}</p>
+        <p className="py-5 dark:text-[#AEBCCF]">{hero.bio}</p>
         <div className="flex gap-2">
           {hero.topics.map((item, key) => {
             return (

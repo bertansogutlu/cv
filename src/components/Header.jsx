@@ -2,30 +2,42 @@ import React, { useContext } from "react";
 import DataContext from "../DataProvider";
 
 function Header() {
-  const { data, handleLanChange, language, handleModeChange, mode } = useContext(DataContext);
+  const { data, handleLanChange, language, handleModeChange, mode } =
+    useContext(DataContext);
   const { header } = data;
   return (
     <header>
       <div className="py-4 flex justify-end items-center">
         <div className="checkbox-apple">
-          <input className="yep" id="check-apple" type="checkbox" onClick={handleModeChange} checked={mode}/>
+          <input
+            className="yep"
+            id="check-apple"
+            type="checkbox"
+            onClick={handleModeChange}
+            checked={mode}
+          />
           <label htmlFor="check-apple"></label>
         </div>
-        <span>{header.mode}&nbsp;</span>
+        <span className="dark:text-[#AEBCCF]">{header.mode}&nbsp;</span>
         <button onClick={handleLanChange}>
-          {
-          language === "ing" ?
-          <div>
-            <span className="text-[#3730A3]">{header.language}</span>
-            {header.languageSpan}
-          </div> : 
-           <div>
-            {header.languageSpan}
-           <span className="text-[#3730A3]">{header.language}</span>
-           
-         </div>
-          }
-         
+          {language === "ing" ? (
+            <div className="dark:text-[#AEBCCF]">
+              <span className="text-[#3730A3] dark:text-[#B7AAFF]">
+                {header.language}
+              </span>
+              <span className="dark:text-[#AEBCCF]">{header.languageSpan}</span>
+            </div>
+          ) : (
+            <div>
+              <span className="dark:text-[#AEBCCF]">
+                {" "}
+                {header.languageSpan}
+              </span>
+              <span className="text-[#3730A3] dark:text-[#B7AAFF]">
+                {header.language}
+              </span>
+            </div>
+          )}
         </button>
       </div>
       <div className="flex justify-between">
