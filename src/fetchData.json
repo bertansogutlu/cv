@@ -1,0 +1,235 @@
+{
+  "ing": {
+    "header": {
+      "mode": "DARK MODE |",
+      "language": "TURKCE",
+      "languageSpan": "'YE GEC",
+      "firstLatter": "B",
+      "topics": ["Skills", "Projects", "Hire Me"]
+    },
+
+    "footer": {
+      "firstRow": "Let's work together on",
+      "secondRow": "your next product."
+    },
+
+    "hero": {
+      "name": "Bertan Sogutlu",
+      "firstRow": "Creative thinker",
+      "secondRow": "Minimalism lover",
+      "bio": "As a full-stack developer, I proficiently manage both client-side and server-side aspects of web development, ensuring holistic solutions that meet both user needs and technical requirements.",
+      "topics": [
+        {
+          "text": "Hire Me",
+          "logo": ""
+        },
+        {
+          "text": "Github",
+          "logo": "@"
+        },
+        {
+          "text": "Linkedin",
+          "logo": "@"
+        }
+      ],
+      "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb"
+    },
+
+    "profile": {
+      "articleName": "Profile",
+      "profile": {
+        "topic": "Profile",
+        "info": [
+          {
+            "title": "Dogum Tarihi",
+            "value": "05.02.1992"
+          },
+          {
+            "title": "Ikamet Sehri",
+            "value": "Antalya"
+          },
+          {
+            "title": "Egitim Durumu",
+            "value": "Yildiz Technical University, Mechanical Engineer"
+          },
+          {
+            "title": "Tercih Ettigi Rol",
+            "value": "Fronted"
+          }
+        ]
+      },
+      "about": {
+        "topic": "About Me",
+        "text": "My technical work experience, which you can see in the details of my resume, has provided me with the habit of working in harmony within teams from different cultures, taking responsibility of project management, capturing challenging deadlines under stress and doing result-oriented work both in Turkey and abroad."
+      }
+    },
+
+    "projects": {
+      "articleName": "Projects",
+      "sites": {
+        "github": "Github",
+        "web": "View Site"
+      },
+      "projects": [
+        {
+          "topic": "Java Script",
+          "text": "JavaScript, the cornerstone of web interactivity, empowers developers to breathe life into static web pages through dynamic functionality and seamless user experiences.",
+          "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
+          "libraries": ["React", "Redux", "Axios"],
+          "github": "",
+          "url": ""
+        },
+        {
+          "topic": "React.Js",
+          "text": "React.js, prized for its component-based architecture, streamlines the development process by allowing developers to build scalable and interactive user interfaces with simplicity and efficiency.",
+          "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
+          "libraries": ["React", "Redux", "Axios"],
+          "github": "",
+          "url": ""
+        },
+        {
+          "topic": "Node.Js",
+          "text": "Node.js, utilizing JavaScript, allows developers to build server-side applications with ease, fostering efficient and scalable solutions for modern web development needs.",
+          "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
+          "libraries": ["React", "Redux", "Axios"],
+          "github": "",
+          "url": ""
+        }
+      ]
+    },
+
+    "skills": {
+      "articleTopic": "Skills",
+      "skills": [
+        {
+          "topic": "Java Script",
+          "text": "JavaScript, the cornerstone of web interactivity, empowers developers to breathe life into static web pages through dynamic functionality and seamless user experiences."
+        },
+        {
+          "topic": "React.Js",
+          "text": "React.js, prized for its component-based architecture, streamlines the development process by allowing developers to build scalable and interactive user interfaces with simplicity and efficiency."
+        },
+        {
+          "topic": "Node.Js",
+          "text": "Node.js, utilizing JavaScript, allows developers to build server-side applications with ease, fostering efficient and scalable solutions for modern web development needs."
+        }
+      ]
+    }
+  },
+  "tr": {
+    "header": {
+      "mode": "KARANLIK MOD |",
+      "language": "TÜRKÇE",
+      "languageSpan": "'YE GEÇ",
+      "firstLatter": "B",
+      "topics": ["Yetenekler", "Projeler", "Beni İşe Al"]
+    },
+    "footer": {
+      "firstRow": "Birlikte çalışalım",
+      "secondRow": "bir sonraki ürününüzde."
+    },
+
+    "hero": {
+      "name": "Bertan Söğütlü",
+      "firstRow": "Yaratıcı düşünür",
+      "secondRow": "Minimalizm sever",
+      "bio": "Full-stack geliştirici olarak, web geliştirmenin hem istemci tarafını hem de sunucu tarafını etkili bir şekilde yönetir, kullanıcı ihtiyaçlarını ve teknik gereksinimleri karşılayan bütünsel çözümler sağlarım.",
+      "topics": [
+        {
+          "text": "Beni İşe Al",
+          "logo": ""
+        },
+        {
+          "text": "Github",
+          "logo": "@"
+        },
+        {
+          "text": "Linkedin",
+          "logo": "@"
+        }
+      ],
+      "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb"
+    },
+
+    "profile": {
+      "articleName": "Profil",
+      "profile": {
+        "topic": "Profil",
+        "info": [
+          {
+            "title": "Doğum Tarihi",
+            "value": "05.02.1992"
+          },
+          {
+            "title": "İkamet Şehri",
+            "value": "Antalya"
+          },
+          {
+            "title": "Eğitim Durumu",
+            "value": "Yıldız Teknik Üniversitesi, Makine Mühendisi"
+          },
+          {
+            "title": "Tercih Ettiği Rol",
+            "value": "Frontend"
+          }
+        ]
+      },
+      "about": {
+        "topic": "Hakkımda",
+        "text": "Teknik iş deneyimim, CV'min detaylarında görebileceğiniz gibi, farklı kültürlerden gelen ekiplerle uyum içinde çalışma alışkanlığı, proje yönetimi sorumluluğunu alma, stres altında zorlayıcı teslim tarihlerini yakalama ve sonuç odaklı çalışma alışkanlığını hem Türkiye'de hem de yurt dışında kazandırmıştır."
+      }
+    },
+
+    "projects": {
+      "articleName": "Projeler",
+      "sites": {
+        "github": "Github",
+        "web": "Siteyi Görüntüle"
+      },
+      "projects": [
+        {
+          "topic": "Java Script",
+          "text": "JavaScript, web etkileşimliliğinin temel taşı olarak, geliştiricilere statik web sayfalarına dinamik işlevsellik ve sorunsuz kullanıcı deneyimleri kazandırmalarını sağlar.",
+          "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
+          "libraries": ["React", "Redux", "Axios"],
+          "github": "",
+          "url": ""
+        },
+        {
+          "topic": "React.Js",
+          "text": "React.js, bileşen tabanlı mimarisi ile öne çıkar ve geliştiricilere basitlik ve verimlilikle ölçeklenebilir ve etkileşimli kullanıcı arayüzleri oluşturma imkanı sunar.",
+          "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
+          "libraries": ["React", "Redux", "Axios"],
+          "github": "",
+          "url": ""
+        },
+        {
+          "topic": "Node.Js",
+          "text": "Node.js, JavaScript'i kullanarak geliştiricilere modern web geliştirme ihtiyaçları için etkili ve ölçeklenebilir çözümler sunan sunucu taraflı uygulamalar oluşturmalarını sağlar.",
+          "img": "https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb",
+          "libraries": ["React", "Redux", "Axios"],
+          "github": "",
+          "url": ""
+        }
+      ]
+    },
+
+    "skills": {
+      "articleTopic": "Yetenekler",
+      "skills": [
+        {
+          "topic": "Java Script",
+          "text": "JavaScript, web etkileşimliliğinin temel taşı olarak, geliştiricilere statik web sayfalarına dinamik işlevsellik ve sorunsuz kullanıcı deneyimleri kazandırmalarını sağlar."
+        },
+        {
+          "topic": "React.Js",
+          "text": "React.js, bileşen tabanlı mimarisi ile öne çıkar ve geliştiricilere basitlik ve verimlilikle ölçeklenebilir ve etkileşimli kullanıcı arayüzleri oluşturma imkanı sunar."
+        },
+        {
+          "topic": "Node.Js",
+          "text": "Node.js, JavaScript'i kullanarak geliştiricilere modern web geliştirme ihtiyaçları için etkili ve ölçeklenebilir çözümler sunan sunucu taraflı uygulamalar oluşturmalarını sağlar."
+        }
+      ]
+    }
+  }
+}
