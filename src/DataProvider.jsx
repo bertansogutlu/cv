@@ -6,7 +6,7 @@ const DataContext = createContext({});
 
 export function DataProvider({children}) {
   const [language, setLanguage] = useState("ing")
-  const [mode, setMode] = useState("light")
+  const [mode, setMode] = useState(false)
   const [allData, setAllData] = useState(fetchData);
   const [data, setData] = useState(allData.ing)
 
@@ -20,8 +20,12 @@ export function DataProvider({children}) {
     }
   }
 
+  const handleModeChange = () => {
+    setMode(!mode)
+  }
+
   return (
-    <DataContext.Provider value={{data,handleLanChange,language}}>
+    <DataContext.Provider value={{data,handleLanChange,language,handleModeChange,mode}}>
       {children}
     </DataContext.Provider>
   );

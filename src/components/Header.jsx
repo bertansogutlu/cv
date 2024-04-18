@@ -2,13 +2,13 @@ import React, { useContext } from "react";
 import DataContext from "../DataProvider";
 
 function Header() {
-  const { data, handleLanChange, language } = useContext(DataContext);
+  const { data, handleLanChange, language, handleModeChange, mode } = useContext(DataContext);
   const { header } = data;
   return (
     <header>
       <div className="py-4 flex justify-end items-center">
         <div className="checkbox-apple">
-          <input className="yep" id="check-apple" type="checkbox" />
+          <input className="yep" id="check-apple" type="checkbox" onClick={handleModeChange} checked={mode}/>
           <label htmlFor="check-apple"></label>
         </div>
         <span>{header.mode}&nbsp;</span>
