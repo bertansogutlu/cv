@@ -2,7 +2,8 @@ import React, { useContext } from "react";
 import DataContext from '../DataProvider'
 
 function Hero() {
-  const {hero} = useContext(DataContext)
+  const {data} = useContext(DataContext)
+  const {hero} = data
   return (
     <article className="py-10 flex justify-between">
       <div className="w-3/5">

@@ -3,7 +3,8 @@ import DataContext from '../DataProvider'
 
 
 function Projects() {
-  const {projects} = useContext(DataContext)
+  const {data} = useContext(DataContext)
+  const {projects} = data
   return (
     <article>
       <h3 className="text-3xl font-semibold">{projects.articleName}</h3>

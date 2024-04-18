@@ -2,7 +2,7 @@
   "ing": {
     "header": {
       "mode": "DARK MODE |",
-      "language": "TURKCE",
+      "language": "TÜRKÇE",
       "languageSpan": "'YE GEC",
       "firstLatter": "B",
       "topics": ["Skills", "Projects", "Hire Me"]
@@ -14,7 +14,7 @@
     },
 
     "hero": {
-      "name": "Bertan Sogutlu",
+      "name": "Bertan Söğütlü",
       "firstRow": "Creative thinker",
       "secondRow": "Minimalism lover",
       "bio": "As a full-stack developer, I proficiently manage both client-side and server-side aspects of web development, ensuring holistic solutions that meet both user needs and technical requirements.",
@@ -119,8 +119,8 @@
   "tr": {
     "header": {
       "mode": "KARANLIK MOD |",
-      "language": "TÜRKÇE",
-      "languageSpan": "'YE GEÇ",
+      "language": "ENGLISH",
+      "languageSpan": "GO TO ",
       "firstLatter": "B",
       "topics": ["Yetenekler", "Projeler", "Beni İşe Al"]
     },

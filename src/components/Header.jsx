@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
-import DataContext from '../DataProvider'
+import DataContext from "../DataProvider";
 
 function Header() {
-  const {header} = useContext(DataContext)
+  const { data, handleLanChange, language } = useContext(DataContext);
+  const { header } = data;
   return (
     <header>
       <div className="py-4 flex justify-end items-center">
@@ -11,9 +12,20 @@ function Header() {
           <label htmlFor="check-apple"></label>
         </div>
         <span>{header.mode}&nbsp;</span>
-        <button>
-          <span className="text-[#3730A3]">{header.language}</span>
-          {header.languageSpan}
+        <button onClick={handleLanChange}>
+          {
+          language === "ing" ?
+          <div>
+            <span className="text-[#3730A3]">{header.language}</span>
+            {header.languageSpan}
+          </div> : 
+           <div>
+            {header.languageSpan}
+           <span className="text-[#3730A3]">{header.language}</span>
+           
+         </div>
+          }
+         
         </button>
       </div>
       <div className="flex justify-between">
@@ -22,7 +34,11 @@ function Header() {
         </div>
         <div className="flex gap-6">
           {header.topics.map((item, key) => {
-            return <button className="header-button" key={key}>{item}</button>;
+            return (
+              <button className="header-button" key={key}>
+                {item}
+              </button>
+            );
           })}
         </div>
       </div>

@@ -2,7 +2,8 @@ import React, { useContext } from 'react'
 import DataContext from '../DataProvider'
 
 function Footer() {
-  const {footer} = useContext(DataContext)
+  const {data} = useContext(DataContext)
+  const {footer} = data;
 
   return (
     <footer>
