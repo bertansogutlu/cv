@@ -2,14 +2,15 @@ import { createContext, useState } from "react";
 import fetchData from "./data.json";
 
 const DataContext = createContext({});
-const [data, setData] = useState(fetchData);
 
-function Context() {
+
+export function DataProvider({children}) {
+  const [data, setData] = useState(fetchData);
   return (
     <DataContext.Provider value={data}>
-      <Page />
+      {children}
     </DataContext.Provider>
   );
 }
 
-export default Context;
+export default DataContext;

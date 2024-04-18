@@ -1,18 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import DataContext from '../DataProvider'
 
-const skills = {
-  articleTopic : "Skills",
-  skills: [
-    {
-      topic: "Java Script",
-      text: "JavaScript, the cornerstone of web interactivity, empowers developers to breathe life into static web pages through dynamic functionality and seamless user experiences.",
-    },
-    { topic: "React.Js", text: "React.js, prized for its component-based architecture, streamlines the development process by allowing developers to build scalable and interactive user interfaces with simplicity and efficiency." },
-    { topic: "Node.Js", text: "Node.js, utilizing JavaScript, allows developers to build server-side applications with ease, fostering efficient and scalable solutions for modern web development needs." },
-  ]
-}
 
 function Skills() {
+  const {skills} = useContext(DataContext)
   return (
     <article>
     <h3 className="text-3xl font-semibold">{skills.articleTopic}</h3>

@@ -1,26 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
+import DataContext from '../DataProvider'
 
-const profile = {
-  articleName: "Profile",
-  profile: {
-  topic: "Profile",
-  info: [
-    { title: "Dogum Tarihi", value: "05.02.1992" },
-    { title: "Ikamet Sehri", value: "Antalya" },
-    {
-      title: "Egitim Durumu",
-      value: "Yildiz Technical University, Mechanical Engineer",
-    },
-    { title: "Tercih Ettigi Rol", value: "Fronted" },
-  ],
-},
-about: {
-  topic: "About Me",
-  text: "My technical work experience, which you can see in the details of my resume, has provided me with the habit of working in harmony within teams from different cultures, taking responsibility of project management, capturing challenging deadlines under stress and doing result-oriented work both in Turkey and abroad.",
-}
-}
 
 function Profile() {
+  const {profile} = useContext(DataContext)
   return (
     <article>
       <h3 className="text-3xl font-semibold">{profile.articleName}</h3>

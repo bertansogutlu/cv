@@ -1,19 +1,8 @@
-import React from "react";
-
-const hero = {
-  name: "Bertan Sogutlu",
-  firstRow: "Creative thinker",
-  secondRow: "Minimalism lover",
-  bio: "As a full-stack developer, I proficiently manage both client-side and server-side aspects of web development, ensuring holistic solutions that meet both user needs and technical requirements.",
-  topics: [
-    { text: "Hire Me", logo: "" },
-    { text: "Github", logo: "@" },
-    { text: "Linkedin", logo: "@" },
-  ],
-  img:"https://www.ntc.edu/sites/default/files/styles/full_width_16_9/public/2021-06/software-development-specialist.jpg?itok=D8qgVwxb"
-};
+import React, { useContext } from "react";
+import DataContext from '../DataProvider'
 
 function Hero() {
+  const {hero} = useContext(DataContext)
   return (
     <article className="py-10 flex justify-between">
       <div className="w-3/5">

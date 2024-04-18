@@ -1,8 +1,8 @@
-import React from "react";
-
-const header = {mode : "DARK MODE |", language: "TURKCE", languageSpan: "'YE GEC", firstLatter: "B", topics: ["Skills", "Projects", "Hire Me"]}
+import React, { useContext } from "react";
+import DataContext from '../DataProvider'
 
 function Header() {
+  const {header} = useContext(DataContext)
   return (
     <header>
       <div className="py-4 flex justify-end items-center">
