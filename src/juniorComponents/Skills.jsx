@@ -8,10 +8,10 @@ function Skills() {
   return (
     <article>
     <h3 className="text-3xl font-semibold dark:text-[#AEBCCF]">{skills.articleTopic}</h3>
-    <div className="flex justify-between">
+    <div className="flex justify-between max-sm:flex-col">
    {skills.skills.map((item, key)=>{
     return (
-      <div className="w-1/4" key={key}>
+      <div className="w-1/4 max-sm:w-full" key={key}>
         <h4 className="text-xl text-[#4338CA] dark:text-[#B7AAFF] py-3">{item.topic}</h4>
         <p className="text-xs dark:text-[#AEBCCF]">{item.text}</p>
       </div>

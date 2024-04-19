@@ -8,10 +8,10 @@ function Projects() {
   return (
     <article className="pb-10">
       <h3 className="text-3xl font-semibold dark:text-[#AEBCCF]">{projects.articleName}</h3>
-      <div className="flex justify-between">
+      <div className="flex justify-between max-sm:flex-col">
         {projects.projects.map((item, key) => {
           return (
-            <div className="w-1/4" key={key}>
+            <div className="w-1/4 max-sm:w-full" key={key}>
               <img className="pt-5" src={item.img} alt={item.topic} />
               <h4 className="text-xl text-[#4338CA] dark:text-[#B7AAFF]py-3">{item.topic}</h4>
               <p className="text-xs pb-5 dark:text-[#AEBCCF]">{item.text}</p>

@@ -6,7 +6,7 @@ import {DataProvider} from "./DataProvider"
 
 function App() {
   return (
-    <div className="dark:bg-[#252128]">
+    <div className="dark:bg-[#252128] min-w-96">
       <DataProvider>
         <div >
           <Header />

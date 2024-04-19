@@ -6,7 +6,7 @@ function Hero() {
   const {hero} = data
   return (
     <article className="py-10 flex justify-between">
-      <div className="w-3/5">
+      <div className="w-3/5 max-lg:w-full">
         <div className="flex gap-2 items-center">
           <hr className="border-[#4338CA] dark:border-[#B7AAFF] w-1/12" />
           <h2 className="text-[#4338CA] dark:text-[#B7AAFF]">{hero.name}</h2>
@@ -27,7 +27,7 @@ function Hero() {
           })}
         </div>
       </div>
-      <div className="w-1/3 my-auto">
+      <div className="w-1/3 my-auto max-lg:hidden">
         <img
           className="aspect-[3/2] rounded-2xl"
           src={hero.img}

@@ -7,7 +7,7 @@ function Header() {
   const { header } = data;
   return (
     <header className="w-4/5 m-auto">
-      <div className="py-4 flex justify-end items-center">
+      <div className="py-4 flex justify-end items-center max-sm:flex-col">
         <div className="checkbox-apple">
           <input
             className="yep"
@@ -44,7 +44,7 @@ function Header() {
         <div className="mark">
           <p>{header.firstLatter}</p>
         </div>
-        <div className="flex gap-6">
+        <div className="flex gap-6 max-sm:flex-col max-sm:gap-0">
           {header.topics.map((item, key) => {
             return (
               <button className="header-button" key={key}>

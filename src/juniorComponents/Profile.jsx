@@ -8,7 +8,7 @@ function Profile() {
   return (
     <article>
       <h3 className="text-3xl font-semibold dark:text-[#AEBCCF]">{profile.articleName}</h3>
-      <div className="flex">
+      <div className="flex max-sm:flex-col">
         <div className="w-3/8">
           <h4 className="text-xl text-[#4338CA] dark:text-[#B7AAFF] py-3">{profile.profile.topic}</h4>
           <div>
@@ -20,7 +20,7 @@ function Profile() {
             })}
           </div>
         </div>
-        <div className="w-1/2 mx-auto text-xs">
+        <div className="w-1/2 mx-auto text-xs max-sm: mx-0">
           <h4 className="text-xl text-[#4338CA] dark:text-[#B7AAFF] py-3">{profile.about.topic}</h4>
           <p className="dark:text-[#AEBCCF]">{profile.about.text}</p>
         </div>
