@@ -23,8 +23,8 @@ function Projects() {
                 })}
               </div>
               <div className="flex justify-between pt-5">
-                <a className="text-[#3730A3] dark:text-[#AEBCCF] text-sm" href={item.github}>{projects.sites.github}</a>
-                <a className="text-[#3730A3] dark:text-[#AEBCCF] text-sm" href={item.url}>{projects.sites.web}</a>
+                <a className="text-[#3730A3] dark:text-[#AEBCCF] text-sm underline" href={item.github}>{projects.sites.github}</a>
+                <a className="text-[#3730A3] dark:text-[#AEBCCF] text-sm underline" href={item.url}>{projects.sites.web}</a>
               </div>
             </div>
           );
