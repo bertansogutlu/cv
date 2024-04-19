@@ -13,7 +13,7 @@ function Header() {
             className="yep"
             id="check-apple"
             type="checkbox"
-            onClick={handleModeChange}
+            onChange={handleModeChange}
             checked={mode}
           />
           <label htmlFor="check-apple"></label>
