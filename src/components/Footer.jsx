@@ -6,8 +6,10 @@ function Footer() {
   const {footer} = data;
 
   return (
-    <footer>
-      <h5 className='my-10 text-2xl text-center bg-[#EEEBFF]'>{footer.firstRow}<br />{footer.secondRow}</h5>
+    <footer className='h-28 flex'>
+
+      <h5 className='text-2xl text-center m-auto w-full bg-[#EEEBFF] dark:bg-[#B7AAFF]'>{footer.firstRow}<br />{footer.secondRow}</h5>
+
     </footer>
   )
 }
