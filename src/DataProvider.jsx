@@ -1,12 +1,14 @@
 import { createContext, useEffect, useState } from "react";
 import localData from "./localData.json";
 import axios from "axios";
+import useLocalStorage from "./hooks/useLocalStorage";
 
 const DataContext = createContext({});
 
 export function DataProvider({ children }) {
-  const [language, setLanguage] = useState("ing");
-  const [mode, setMode] = useState(false);
+  
+  const [language, setLanguage] = useLocalStorage("lang",navigator.language.includes('tr') ? "tr" : "ing");
+  const [mode, setMode] = useLocalStorage("mode",window.matchMedia('(prefers-color-scheme: dark)').matches);
   const [allData, setAllData] = useState({});
   const [data, setData] = useState({});
   const [loading, setLoading] = useState(true);
@@ -17,7 +19,7 @@ export function DataProvider({ children }) {
       .then(function (response) {
         console.log(response);
         setAllData(response.data);
-        setData(response.data.ing)
+        setData(response.data[language])
       })
       .catch(function (error) {
         console.log(error);
@@ -27,7 +29,9 @@ export function DataProvider({ children }) {
       });
   };
  
-  useEffect(()=>{fetchData()},[])
+  useEffect(()=>{
+    if(mode) {document.documentElement.classList.add("dark")}
+    fetchData()},[])
 
   const handleLanChange = () => {
     if (language === "ing") {
