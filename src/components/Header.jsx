@@ -6,7 +6,7 @@ function Header() {
     useContext(DataContext);
   const { header } = data;
   return (
-    <header>
+    <header className="w-4/5 m-auto">
       <div className="py-4 flex justify-end items-center">
         <div className="checkbox-apple">
           <input

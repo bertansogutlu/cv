@@ -6,7 +6,7 @@ import Projects from "../juniorComponents/Projects";
 
 function Main() {
   return (
-    <main>
+    <main className="w-4/5 m-auto">
       <Hero />
       <Skills/>
       <Profile/>

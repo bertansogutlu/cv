@@ -6,7 +6,7 @@ function Projects() {
   const {data} = useContext(DataContext)
   const {projects} = data
   return (
-    <article>
+    <article className="pb-10">
       <h3 className="text-3xl font-semibold dark:text-[#AEBCCF]">{projects.articleName}</h3>
       <div className="flex justify-between">
         {projects.projects.map((item, key) => {
